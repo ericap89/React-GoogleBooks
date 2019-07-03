@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ericap89/React-GoogleBooks/issues"
   },
-  "homepage": "https://github.com/ericap89/React-GoogleBooks#readme"
+  "homepage": "https://github.com/ericap89/React-GoogleBooks#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

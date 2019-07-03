@@ -8,4 +8,4 @@ const App =_ => {
   )
 }
 
-module.exports = App 
+export default App 
