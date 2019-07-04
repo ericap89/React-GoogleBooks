@@ -1,10 +1,16 @@
 import React from 'react'
+import { BrowserRouter , Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Saved from './pages/Saved'
 
 const App =_ => {
   return(
-    <>
-    <h1>Hello There!</h1>
-    </>
+    <BrowserRouter>
+      <div>
+        <Route exact path='/' component = { _ => <Home/> } />
+        <Route path='/Saved' component = { _ => <Saved/> }/>
+      </div>
+    </BrowserRouter>
   )
 }
 
