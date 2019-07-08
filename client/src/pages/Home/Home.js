@@ -1,12 +1,20 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import Navbar from '../../components/Navbar'
+import Books from '../../components/Books'
+import Footer from '../../components/Footer'
+import Banner from '../../components/Banner'
 class Home extends Component {
-    render () {
+    render() {
         return (
-            <h1>Home Page</h1>
-        )
+            <>
+            <Navbar/>
+            <Banner/>
+            <Books/>
+            <Footer/>
+            </>
+        );
     }
 }
 
-export default Home 
+export default Home;
 
