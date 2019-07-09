@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 class Saved extends Component {
     render () {
         return (
-            <h1>Saved Page</h1>
+            <>
+            <Navbar/>
+
+            <Footer/>
+            </>
         )
     }
 }

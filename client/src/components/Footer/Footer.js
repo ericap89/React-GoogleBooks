@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import "./Footer.css"
+import { Container } from '@material-ui/core';
+import Typography from '@material-ui/core/Typography';
+
+
 
 class Footer extends Component {
     render() {
         return (
-            <div>
-                <h1>Footer</h1>
-            </div>
+            <Container fixed-bottom className="footer">
+           
+
+            </Container>
+
         );
     }
 }
