@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Search.css'
 import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
-
 import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 
@@ -13,8 +12,8 @@ class SearchBar extends Component {
 
         return (
             <Paper className="search">
-                <InputBase placeholder="Search Google Books"/>
-                <IconButton >
+                <InputBase placeholder="Search Google Books" value={search} onChange={handleChange}/>
+                <IconButton type="submit" onClick={handleSubmit}>
                     <SearchIcon />
                 </IconButton>
             </Paper>
