@@ -9,6 +9,8 @@ import SearchIcon from '@material-ui/icons/Search';
 
 class SearchBar extends Component {
     render() {
+        const {handleChange, handleSubmit, search} = this.props;
+
         return (
             <Paper className="search">
                 <InputBase placeholder="Search Google Books"/>
